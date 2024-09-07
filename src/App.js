@@ -30,12 +30,12 @@ const App = () => {
         <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
           <Toolbar />
           <Routes>
-            <Route index element={<Home />} />
-            <Route path="/profile" element={<Profile currentUser={currentUser}/>} />
-            <Route path="/jobs" element={<Jobs />} />
-            <Route path="/settings" element={<Settings />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/register" element={<Register setCurrentUser={setCurrentUser}/>} />
+            <Route path="/freelancer-web/" element={<Home />} />
+            <Route path="/freelancer-web/profile" element={<Profile currentUser={currentUser}/>} />
+            <Route path="/freelancer-web/jobs" element={<Jobs />} />
+            <Route path="/freelancer-web/settings" element={<Settings />} />
+            <Route path="/freelancer-web/login" element={<Login />} />
+            <Route path="/freelancer-web/register" element={<Register setCurrentUser={setCurrentUser}/>} />
             {/* <Route path="/chat" element={<Chat />} /> */}
           </Routes>
         </Box>

@@ -63,22 +63,22 @@ const Sidebar = ({ handleDrawerToggle, mobileOpen }) => {
             <h2>Menu</h2>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/freelancer-web/">Home</Link>
               </li>
               <li>
-              <Link to="/profile">Profile</Link>
+              <Link to="/freelancer-web/profile">Profile</Link>
 
               </li>
               <li>
-              <Link to="/jobs">Jobs</Link>
+              <Link to="/freelancer-web/jobs">Jobs</Link>
 
               </li>
               <li>
-              <Link to="/settings">Settings</Link>
+              <Link to="/freelancer-web/settings">Settings</Link>
 
               </li>
               <li>
-              <Link to="/register">Register</Link>
+              <Link to="/freelancer-web/register">Register</Link>
 
               </li>
               
@@ -99,22 +99,22 @@ const Sidebar = ({ handleDrawerToggle, mobileOpen }) => {
             <h2>Menu</h2>
             <ul>
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/freelancer-web/">Home</Link>
               </li>
               <li>
-              <Link to="/profile">Profile</Link>
+              <Link to="/freelancer-web/profile">Profile</Link>
 
               </li>
               <li>
-              <Link to="/jobs">Jobs</Link>
+              <Link to="/freelancer-web/jobs">Jobs</Link>
 
               </li>
               <li>
-              <Link to="/settings">Settings</Link>
+              <Link to="/freelancer-web/settings">Settings</Link>
 
               </li>
               <li>
-              <Link to="/register">Register</Link>
+              <Link to="/freelancer-web/register">Register</Link>
 
               </li>
             </ul>
